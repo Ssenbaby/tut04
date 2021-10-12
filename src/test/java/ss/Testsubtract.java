@@ -8,7 +8,7 @@ public class Testsubtract {
 
         @Test
         public void Test2(){
-            int n3 = new Calc().add(n1,n2);
+            int n3 = new Calc().subtract(n1,n2);
             int n4 = n1-n2;
             assert(n3 == n4);
         }
